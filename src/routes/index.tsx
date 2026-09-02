@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Linkedin, Download, ArrowUpRight, Languages } from "lucide-react";
-import cvAsset from "@/assets/jose-acurero-cv.pdf.asset.json";
+// OJO: Asegúrate de actualizar la ruta del asset a tu PDF si lo vas a descargar desde aquí.
+import cvAsset from "@/assets/greydemar-serrano-cv.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -11,163 +12,211 @@ type Lang = "es" | "en";
 
 const content = {
   es: {
-    role: "Frontend Developer",
+    role: "Project Coordinator · Marketing Ops · Social Media Strategist",
     intro:
-      "Más de 3 años construyendo aplicaciones web escalables y de alto rendimiento. Especializado en React, Angular y TypeScript, con experiencia sólida en sistemas ERP y plataformas orientadas al usuario.",
-    location: "Elda, España",
+      "Conecto marketing, ventas y operaciones para escalar negocios y estructurar flujos de trabajo. Transformo estrategias en ingresos mediante la automatización de procesos con Inteligencia Artificial, la coordinación ágil de equipos multidisciplinarios y el diseño de embudos de adquisición. Cuento con más de 4 años de experiencia eliminando cuellos de botella operativos e impulsando el crecimiento comercial bajo estándares de servicio VIP (5 estrellas).",
+    location: "Caracas, Venezuela",
     download: "Descargar CV",
     contact: "Contactar",
     sections: {
       experience: "Experiencia",
-      skills: "Habilidades",
+      skills: "Habilidades y Herramientas",
       education: "Educación",
       soft: "Habilidades blandas",
     },
     experience: [
       {
-        company: "Quality Controls Groups International",
-        location: "Caracas, Venezuela",
-        role: "Frontend Developer · Full Stack",
-        period: "Abr. 2023 — Sept. 2025",
+        company: "YP Realty",
+        location: "Remoto / Puerto Rico",
+        role: "Social Media & Digital Strategist",
+        period: "Jul. 2026 — Presente",
         bullets: [
-          "Mantenimiento evolutivo de un sistema ERP desarrollado en Angular.",
-          "Desarrollo de aplicaciones administrativas usando React y Next.js en entornos productivos.",
-          "Maquetación y diseño de interfaces con Figma, aplicando principios de usabilidad y diseño responsive.",
-          "Implementación de APIs y servicios backend con NestJS, orientados a procesamiento y visualización de datos.",
-          "Desarrollo de dashboards e informes interactivos conectados a servicios backend.",
+          "Lidero la estrategia de contenido orgánico y edición de video (Instagram, TikTok, YouTube, FB) para posicionar propiedades residenciales y comerciales en el mercado de Puerto Rico.",
+          "Diseño y optimizo campañas publicitarias multiplataforma orientadas a la captación de leads inmobiliarios, maximizando el retorno de inversión y las tasas de conversión.",
+          "Gestiono la comunidad digital mediante respuestas ágiles, aplicando estrategias de Growth para transformar seguidores en prospectos calificados.",
         ],
       },
       {
-        company: "Tecnología AVL, C.A.",
+        company: "PanHouse, Casa Editorial",
         location: "Caracas, Venezuela",
-        role: "Frontend Developer · Roku Developer",
-        period: "Nov. 2022 — Mar. 2023",
+        role: "Coordinadora de Comunicaciones Internas",
+        period: "Mar. 2024 — Ago. 2025",
         bullets: [
-          "Desarrollo y publicación de aplicaciones de streaming para Roku TV usando BrightScript y XML.",
-          "Optimización de aplicaciones multiplataforma para Smart TV (Android TV, Fire TV, MI Box) mediante Ionic.",
-          "Mejora de navegación, rendimiento y experiencia de usuario en interfaces orientadas a consumo multimedia.",
-          "Colaboración con equipos de contenido y producto para definir requerimientos técnicos.",
+          "Sincronicé las operaciones diarias entre los departamentos de Marketing, Ventas y Relaciones Públicas, garantizando el flujo de información y la ejecución exitosa de eventos VIP.",
+          "Diseñé e integré sistemas de automatización con IA (ChatGPT, Claude) que redujeron drásticamente los tiempos de atención y estandarizaron la comunicación interna y externa.",
+          "Ejecuté la depuración y segmentación del CRM para lanzar campañas de Email Marketing enfocadas en la retención y reactivación de usuarios.",
         ],
       },
       {
-        company: "Technology Consulting Solution",
+        company: "ISMM - Instituto Superior Mariano Moreno",
         location: "Caracas, Venezuela",
-        role: "Frontend Developer",
-        period: "Nov. 2021 — Sept. 2022",
+        role: "Acquisition Manager (Ventas B2C)",
+        period: "Nov. 2023 — Sept. 2024",
         bullets: [
-          "Desarrollo y optimización de aplicaciones web administrativas utilizando Angular.",
-          "Mejora del rendimiento general del sistema, reduciendo los tiempos de respuesta ~40% mediante optimización del DOM y mejor gestión de servicios.",
-          "Implementación de comunicación en tiempo real usando WebSockets, permitiendo transmisión de audio y video en plataformas corporativas.",
-          "Desarrollo de soluciones de telemedicina con arquitectura modular enfocada en mantenibilidad y escalabilidad.",
+          "Gestioné el ciclo de ventas End-to-End, impulsando un incremento del 37,7% en la conversión de matrículas de alto valor (High-Ticket).",
+          "Codiseñé estrategias de Video Marketing y Social Media en sinergia con el equipo audiovisual, creando activos digitales orientados a la venta directa.",
+          "Brindé asesoría consultiva omnicanal para manejar objeciones y cerrar negociaciones.",
+        ],
+      },
+      {
+        company: "Eurobuilding Hotels & Suites",
+        location: "Caracas, Venezuela",
+        role: "Coordinadora del Business Center & Operaciones B2B",
+        period: "Ago. 2022 — Jul. 2023",
+        bullets: [
+          "Ascendí internamente para liderar el Business Center, gestionando el portafolio corporativo (B2B), coordinando reservas y logística bajo estrictos estándares de calidad 5 estrellas.",
+          "Centralicé las operaciones entre 7 departamentos críticos (Ventas, Front Desk, Sistemas, Ingeniería, Experiencias, Cocina y Ama de Llaves), optimizando la comunicación de todo el hotel.",
+          "Alcancé una tasa de resolución del 100% en incidencias operativas complejas, actuando como mediadora estratégica entre las áreas.",
+        ],
+      },
+      {
+        company: "Dislocal",
+        location: "Caracas, Venezuela",
+        role: "Production Manager & Project Coordinator",
+        period: "Oct. 2021 — Oct. 2022",
+        bullets: [
+          "Lideré la planificación estratégica y producción logística de proyectos con impacto socioeconómico y cultural en la comunidad del Barrio El Calvario (El Hatillo).",
+          "Apliqué metodologías de Project Management para asegurar el cumplimiento de cronogramas y coordinar múltiples equipos en terreno.",
+          "Actué como enlace principal entre aliados organizacionales (Visión Ciudad) y la comunidad local, garantizando la ejecución impecable de exposiciones y eventos al aire libre.",
         ],
       },
     ],
     skills: {
-      Frontend: ["React", "Angular", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Responsive Design"],
-      Backend: ["NestJS", "Node.js", "APIs REST"],
-      Otros: ["WebSockets", "Figma", "Jira", "Smart TV Apps", "ERP Systems"],
-      Metodologías: ["Scrum", "Trabajo colaborativo", "Planificación de sprints", "Revisión de código"],
+      "Marketing & Ads": ["Captación de leads", "Email Marketing (Mailchimp)", "Meta Ads", "B2B/B2C Sales", "Estrategia Inmobiliaria"],
+      "Project Ops": ["Asana", "ClickUp", "Notion", "Trello", "Liderazgo interdisciplinario", "Zoho CRM", "Zendesk"],
+      "Content & Video": ["CapCut", "Canva", "Adobe Suite", "Copywriting persuasivo", "Community Management"],
+      "AI & Automation": ["ChatGPT", "Gemini", "Claude", "Prompt Engineering", "Optimización de flujos"]
     } as Record<string, string[]>,
     education: [
       {
-        school: "Universidad Santa María",
+        school: "Universidad Monteávila",
         location: "Caracas, Venezuela",
-        degree: "Ingeniería de Sistemas",
-        date: "Feb. 2024",
-        honors: "Mención publicación en trabajo especial de grado (TEG)",
+        degree: "Licenciatura en Comunicación Social, Mención Corporativo",
+        date: "2024",
       },
       {
-        school: "Technology Consulting Solution",
+        school: "Eurobuilding Hotels & Suites",
         location: "Caracas, Venezuela",
-        degree: "Formación técnica: Android, Java, Angular, Flutter, Bases de Datos, NodeJS",
-        date: "Ago. 2021",
+        degree: "Servicio Hoteles 5 Estrellas",
+        date: "2024",
+      },
+      {
+        school: "Juventus & ACF Bogotá",
+        location: "Bogotá, Colombia",
+        degree: "Inteligencia y Conciencia Emocional",
+        date: "2023",
       },
     ],
     soft: [
-      "Alta proactividad y enfoque al trabajo en equipo.",
-      "Adaptación a entornos dinámicos y resolución de problemas bajo presión.",
-      "Orientación a resultados y mejora continua.",
-      "Comunicación efectiva en entornos multidisciplinarios.",
+      "Liderazgo transversal y coordinación ágil de equipos multidisciplinarios.",
+      "Resolución estratégica de problemas y manejo rápido de crisis operativas.",
+      "Comunicación asertiva y negociación orientada a resultados comerciales.",
+      "Atención al detalle y estándares de calidad VIP (5 estrellas) en experiencia de cliente.",
+      "Adaptabilidad tecnológica y adopción proactiva de Inteligencia Artificial.",
     ],
   },
   en: {
-    role: "Frontend Developer",
+    role: "Project Coordinator · Marketing Ops · Social Media Strategist",
     intro:
-      "Over 3 years building scalable, high-performance web applications. Specialized in React, Angular and TypeScript, with strong experience in ERP systems and user-facing platforms.",
-    location: "Elda, Spain",
+      "I connect marketing, sales, and operations to scale businesses and structure workflows. I transform strategies into revenue by automating processes with Artificial Intelligence, agile coordination of multidisciplinary teams, and designing acquisition funnels. I have over 4 years of experience eliminating operational bottlenecks and driving commercial growth under VIP service standards (5 stars).",
+    location: "Caracas, Venezuela",
     download: "Download CV",
     contact: "Get in touch",
     sections: {
       experience: "Experience",
-      skills: "Skills",
+      skills: "Skills & Tools",
       education: "Education",
       soft: "Soft skills",
     },
     experience: [
       {
-        company: "Quality Controls Groups International",
-        location: "Caracas, Venezuela",
-        role: "Frontend Developer · Full Stack",
-        period: "Apr. 2023 — Sept. 2025",
+        company: "YP Realty",
+        location: "Remote / Puerto Rico",
+        role: "Social Media & Digital Strategist",
+        period: "Jul. 2026 — Present",
         bullets: [
-          "Evolutionary maintenance of an ERP system built in Angular.",
-          "Development of admin applications using React and Next.js in production environments.",
-          "UI design and layout with Figma, applying usability and responsive design principles.",
-          "Implementation of APIs and backend services with NestJS, focused on data processing and visualization.",
-          "Development of interactive dashboards and reports connected to backend services.",
+          "Lead the organic content strategy and video editing (Instagram, TikTok, YouTube, FB) to position residential and commercial properties in the Puerto Rican market.",
+          "Design and optimize cross-platform advertising campaigns aimed at capturing real estate leads, maximizing ROI and conversion rates.",
+          "Manage the digital community with agile responses, applying Growth strategies to turn followers into qualified prospects.",
         ],
       },
       {
-        company: "Tecnología AVL, C.A.",
+        company: "PanHouse, Publishing House",
         location: "Caracas, Venezuela",
-        role: "Frontend Developer · Roku Developer",
-        period: "Nov. 2022 — Mar. 2023",
+        role: "Internal Communications Coordinator",
+        period: "Mar. 2024 — Aug. 2025",
         bullets: [
-          "Developed and published streaming apps for Roku TV using BrightScript and XML.",
-          "Optimized cross-platform Smart TV apps (Android TV, Fire TV, MI Box) with Ionic.",
-          "Improved navigation, performance and UX on interfaces designed for media consumption.",
-          "Collaborated with content and product teams to define technical requirements.",
+          "Synchronized daily operations among Marketing, Sales, and PR departments, ensuring information flow and the successful execution of VIP events.",
+          "Designed and integrated AI-driven automation systems (ChatGPT, Claude) that drastically reduced response times and standardized corporate communication.",
+          "Executed CRM database debugging and segmentation to launch Email Marketing campaigns focused on user retention and reactivation.",
         ],
       },
       {
-        company: "Technology Consulting Solution",
+        company: "ISMM - Mariano Moreno Higher Institute",
         location: "Caracas, Venezuela",
-        role: "Frontend Developer",
-        period: "Nov. 2021 — Sept. 2022",
+        role: "Acquisition Manager (B2C Sales)",
+        period: "Nov. 2023 — Sept. 2024",
         bullets: [
-          "Development and optimization of admin web applications using Angular.",
-          "Improved overall system performance, reducing response times by ~40% through DOM optimization and better service management.",
-          "Implemented real-time communication with WebSockets, enabling audio and video streaming in corporate platforms.",
-          "Built telemedicine solutions with a modular architecture focused on maintainability and scalability.",
+          "Managed the End-to-End sales cycle, driving a 37.7% increase in conversion rates for High-Ticket enrollments.",
+          "Co-designed Video Marketing and Social Media strategies in synergy with the audiovisual team, creating digital assets geared towards direct sales.",
+          "Provided omnichannel consultative advice to handle objections and close negotiations.",
+        ],
+      },
+      {
+        company: "Eurobuilding Hotels & Suites",
+        location: "Caracas, Venezuela",
+        role: "Business Center & B2B Operations Coordinator",
+        period: "Aug. 2022 — Jul. 2023",
+        bullets: [
+          "Promoted internally to lead the Business Center, managing the corporate (B2B) portfolio, coordinating reservations and logistics under strict 5-star quality standards.",
+          "Centralized operations across 7 critical departments (Sales, Front Desk, IT, Engineering, Experiences, Kitchen, and Housekeeping), optimizing hotel-wide communication.",
+          "Achieved a 100% resolution rate for complex operational incidents, acting as a strategic mediator between departments.",
+        ],
+      },
+      {
+        company: "Dislocal",
+        location: "Caracas, Venezuela",
+        role: "Production Manager & Project Coordinator",
+        period: "Oct. 2021 — Oct. 2022",
+        bullets: [
+          "Led the strategic planning and logistical production of projects with socioeconomic and cultural impact in the Barrio El Calvario community (El Hatillo).",
+          "Applied Project Management methodologies to ensure schedule compliance and coordinate multiple teams on the ground.",
+          "Acted as the main liaison between organizational allies (Visión Ciudad) and the local community, ensuring the flawless execution of outdoor exhibitions and events.",
         ],
       },
     ],
     skills: {
-      Frontend: ["React", "Angular", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Responsive Design"],
-      Backend: ["NestJS", "Node.js", "REST APIs"],
-      Other: ["WebSockets", "Figma", "Jira", "Smart TV Apps", "ERP Systems"],
-      Methodologies: ["Scrum", "Team collaboration", "Sprint planning", "Code review"],
+      "Marketing & Ads": ["Lead Generation", "Email Marketing (Mailchimp)", "Meta Ads", "B2B/B2C Sales", "Real Estate Strategy"],
+      "Project Ops": ["Asana", "ClickUp", "Notion", "Trello", "Cross-functional Leadership", "Zoho CRM", "Zendesk"],
+      "Content & Video": ["CapCut", "Canva", "Adobe Suite", "Persuasive Copywriting", "Community Management"],
+      "AI & Automation": ["ChatGPT", "Gemini", "Claude", "Prompt Engineering", "Workflow Optimization"]
     } as Record<string, string[]>,
     education: [
       {
-        school: "Universidad Santa María",
+        school: "Universidad Monteávila",
         location: "Caracas, Venezuela",
-        degree: "Systems Engineering",
-        date: "Feb. 2024",
-        honors: "Honors: publication mention in final degree project (TEG)",
+        degree: "Bachelor's in Social Communication, Corporate Major",
+        date: "2024",
       },
       {
-        school: "Technology Consulting Solution",
+        school: "Eurobuilding Hotels & Suites",
         location: "Caracas, Venezuela",
-        degree: "Technical training: Android, Java, Angular, Flutter, Databases, NodeJS",
-        date: "Aug. 2021",
+        degree: "5-Star Hotel Service Training",
+        date: "2024",
+      },
+      {
+        school: "Juventus & ACF Bogotá",
+        location: "Bogota, Colombia",
+        degree: "Emotional Intelligence & Awareness",
+        date: "2023",
       },
     ],
     soft: [
-      "High proactivity and strong team focus.",
-      "Adaptable to dynamic environments and problem-solving under pressure.",
-      "Results-driven with a continuous improvement mindset.",
-      "Effective communication in multidisciplinary teams.",
+      "Cross-functional leadership and agile coordination of multidisciplinary teams.",
+      "Strategic problem-solving and rapid operational crisis management.",
+      "Assertive communication and negotiation focused on commercial results.",
+      "Attention to detail and VIP quality standards (5-star) in customer experience.",
+      "Technological adaptability and proactive adoption of Artificial Intelligence.",
     ],
   },
 } as const;
@@ -197,7 +246,7 @@ function Index() {
             {t.role}
           </p>
           <h1 className="text-5xl font-medium leading-tight text-foreground sm:text-6xl">
-            José Alejandro<br />Acurero
+            Greydemar<br />Serrano
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
             {t.intro}
@@ -207,13 +256,13 @@ function Index() {
             <span className="inline-flex items-center gap-2">
               <MapPin className="h-4 w-4" /> {t.location}
             </span>
-            <a href="mailto:joseacureropita0@gmail.com" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
-              <Mail className="h-4 w-4" /> joseacureropita0@gmail.com
+            <a href="mailto:greydemar06@gmail.com" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
+              <Mail className="h-4 w-4" /> greydemar06@gmail.com
             </a>
-            <a href="tel:+34602658906" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
-              <Phone className="h-4 w-4" /> +34 602 65 89 06
+            <a href="https://wa.me/584126339776" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
+              <Phone className="h-4 w-4" /> +58 412 633 9776
             </a>
-            <a href="https://www.linkedin.com/in/jose-acurero" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
+            <a href="https://www.linkedin.com/in/greydemarserrano/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
               <Linkedin className="h-4 w-4" /> LinkedIn
             </a>
           </div>
@@ -221,7 +270,7 @@ function Index() {
           <div className="mt-8">
             <a
               href={cvAsset.url}
-              download="Jose-Acurero-CV.pdf"
+              download="Greydemar-Serrano-CV.pdf"
               className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-all hover:opacity-90"
             >
               <Download className="h-4 w-4" /> {t.download}
@@ -253,6 +302,7 @@ function Index() {
           </ol>
         </Section>
 
+        {/* Sección de Habilidades restaurada a su diseño original de cuadrícula */}
         <Section title={t.sections.skills}>
           <div className="space-y-5">
             {Object.entries(t.skills).map(([group, items]) => (
@@ -300,8 +350,8 @@ function Index() {
         </Section>
 
         <footer className="mt-20 flex items-center justify-between border-t border-border pt-6 text-xs text-muted-foreground">
-          <span>© {new Date().getFullYear()} José Alejandro Acurero</span>
-          <a href="mailto:joseacureropita0@gmail.com" className="inline-flex items-center gap-1 transition-colors hover:text-accent">
+          <span>© {new Date().getFullYear()} Greydemar Serrano</span>
+          <a href="mailto:greydemar06@gmail.com" className="inline-flex items-center gap-1 transition-colors hover:text-accent">
             {t.contact} <ArrowUpRight className="h-3 w-3" />
           </a>
         </footer>

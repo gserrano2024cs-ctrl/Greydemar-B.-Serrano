@@ -1,8 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Linkedin, Download, ArrowUpRight, Languages } from "lucide-react";
-// OJO: Asegúrate de actualizar la ruta del asset a tu PDF si lo vas a descargar desde aquí.
+// IMPORTANTE: Mantenemos este nombre de archivo para que Vercel no dé error.
 import cvAsset from "@/assets/jose-acurero-cv.pdf.asset.json";
+
 export const Route = createFileRoute("/")({
   component: Index,
 });
@@ -16,6 +17,7 @@ const content = {
       "Conecto marketing, ventas y operaciones para escalar negocios y estructurar flujos de trabajo. Transformo estrategias en ingresos mediante la automatización de procesos con Inteligencia Artificial, la coordinación ágil de equipos multidisciplinarios y el diseño de embudos de adquisición. Cuento con más de 4 años de experiencia eliminando cuellos de botella operativos e impulsando el crecimiento comercial bajo estándares de servicio VIP (5 estrellas).",
     location: "Caracas, Venezuela",
     download: "Descargar CV",
+    portfolio: "Ver Portafolio",
     contact: "Contactar",
     sections: {
       experience: "Experiencia",
@@ -120,6 +122,7 @@ const content = {
       "I connect marketing, sales, and operations to scale businesses and structure workflows. I transform strategies into revenue by automating processes with Artificial Intelligence, agile coordination of multidisciplinary teams, and designing acquisition funnels. I have over 4 years of experience eliminating operational bottlenecks and driving commercial growth under VIP service standards (5 stars).",
     location: "Caracas, Venezuela",
     download: "Download CV",
+    portfolio: "View Portfolio",
     contact: "Get in touch",
     sections: {
       experience: "Experience",
@@ -245,7 +248,7 @@ function Index() {
             {t.role}
           </p>
           <h1 className="text-5xl font-medium leading-tight text-foreground sm:text-6xl">
-            Greydemar<br />Serrano
+            Greydemar Berenices<br />Serrano
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
             {t.intro}
@@ -266,13 +269,21 @@ function Index() {
             </a>
           </div>
 
-          <div className="mt-8">
+          <div className="mt-8 flex flex-wrap gap-4">
             <a
               href={cvAsset.url}
               download="Greydemar-Serrano-CV.pdf"
               className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-all hover:opacity-90"
             >
               <Download className="h-4 w-4" /> {t.download}
+            </a>
+            <a
+              href="https://greydemarserrano.my.canva.site/greydemar-serrano"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-md border border-border bg-card px-4 py-2.5 text-sm font-medium text-foreground shadow-[var(--shadow-soft)] transition-all hover:bg-accent hover:text-accent-foreground"
+            >
+              {t.portfolio} <ArrowUpRight className="h-4 w-4" />
             </a>
           </div>
         </header>
@@ -301,7 +312,6 @@ function Index() {
           </ol>
         </Section>
 
-        {/* Sección de Habilidades restaurada a su diseño original de cuadrícula */}
         <Section title={t.sections.skills}>
           <div className="space-y-5">
             {Object.entries(t.skills).map(([group, items]) => (

@@ -77,11 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "José Alejandro Acurero — Frontend Developer" },
-      { name: "description", content: "CV interactivo de José Alejandro Acurero, Frontend Developer con más de 3 años de experiencia en React, Angular, TypeScript y sistemas ERP." },
-      { name: "author", content: "José Alejandro Acurero" },
-      { property: "og:title", content: "José Alejandro Acurero — Frontend Developer" },
-      { property: "og:description", content: "Frontend Developer especializado en React, Angular y TypeScript." },
+      { title: "Greydemar Serrano - Project Coordinator & Marketing Ops" },
+      { name: "description", content: "CV interactivo de Greydemar Serrano, Project Coordinator, Marketing Ops y Social Media Strategist con experiencia en escalabilidad de negocios y atención VIP." },
+      { name: "author", content: "Greydemar Serrano" },
+      { property: "og:title", content: "Greydemar Serrano — Project Coordinator & Marketing Ops" },
+      { property: "og:description", content: "Estratega Digital especializada en marketing, automatización con IA y operaciones comerciales." },
       { property: "og:type", content: "profile" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -101,7 +101,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <HeadContent />
       </head>

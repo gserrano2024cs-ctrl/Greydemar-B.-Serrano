@@ -2,8 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Linkedin, Download, ArrowUpRight, Languages } from "lucide-react";
 // OJO: Asegúrate de actualizar la ruta del asset a tu PDF si lo vas a descargar desde aquí.
-import cvAsset from "@/assets/greydemar-serrano-cv.pdf.asset.json";
-
+import cvAsset from "@/assets/jose-acurero-cv.pdf.asset.json";
 export const Route = createFileRoute("/")({
   component: Index,
 });

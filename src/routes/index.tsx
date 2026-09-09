@@ -42,7 +42,7 @@ const content = {
         period: "Jul. 2026 — Presente",
         bullets: [
           "Lidero la estrategia de Marketing de Contenidos y la edición de video orgánico, aplicando transiciones dinámicas y hooks (ganchos) en tendencia para maximizar la retención de audiencia.",
-          "Extraigo clips de podcasts para producir Reels y Shorts de alto impacto (YouTube, TikTok, Instagram) y redacto copys persuasivos orientados a la conversión inmobiliaria.",
+          "Edito episodios de podcast y produzco Reels y Shorts de alto impacto (YouTube, TikTok, Instagram). Redacto guiones, copys persuasivos y aplico estrategias SEO para generar contenido en tendencia, maximizando el posicionamiento en motores de búsqueda y la conversión inmobiliaria.",
           "Analizo métricas en Meta Business Suite, logrando picos de 292 en alcance (+56.1%) y 155 interacciones de contenido (+604.5%) mediante una gestión activa de la comunidad.",
         ],
       },
@@ -163,7 +163,7 @@ const content = {
         period: "Jul. 2026 — Present",
         bullets: [
           "Lead the Content Marketing strategy and organic video editing, applying dynamic transitions and trending hooks to maximize audience retention.",
-          "Extract podcast clips to produce high-impact Reels and Shorts (YouTube, TikTok, Instagram) and write persuasive copy aimed at real estate conversion.",
+          "Edit podcast episodes and produce high-impact Reels and Shorts (YouTube, TikTok, Instagram). I write scripts, persuasive copy, and apply SEO strategies to generate trending content, maximizing search engine ranking and real estate conversion.",
           "Analyze metrics in Meta Business Suite, achieving peaks of 292 in reach (+56.1%) and 155 content interactions (+604.5%) through active community management.",
         ],
       },

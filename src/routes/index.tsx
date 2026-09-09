@@ -12,9 +12,9 @@ type Lang = "es" | "en";
 
 const content = {
   es: {
-    role: "Especialista en Marketing Digital · Presencia Web · Sales Ops",
+    role: "Marketing Digital · Desarrolladora Web Jr. · Estrategia de Ventas",
     intro:
-      "Mi enfoque es claro: diseño estrategias de marketing que atraen, construyo la presencia digital que enamora y optimizo los sistemas comerciales que convierten. Entiendo que un buen contenido o una página web solo son exitosos si logran generar ingresos de forma rápida. Por eso, combino mi experiencia en marketing de contenidos y edición estratégica con el desarrollo web de Landing Pages y la automatización de procesos (CRM y ventas). Aporto más de 4 años creando ecosistemas digitales que funcionan en automático, eliminando cuellos de botella operativos e impulsando la facturación bajo estándares VIP (5 estrellas).",
+      "Especialista en Marketing Digital con visión comercial. Transformo tendencias en estrategias rentables mediante la creación de contenido de alto impacto, el desarrollo web de Landing Pages y la automatización con Inteligencia Artificial. Conecto la presencia digital con sistemas comerciales ágiles (CRM, ventas en frío/tibias) para escalar la facturación de forma rápida y medible, eliminando cuellos de botella operativos bajo estándares de servicio VIP (5 estrellas).",
     location: "Caracas, Venezuela",
     download: "Descargar CV",
     portfolio: "Ver Portafolio",
@@ -27,58 +27,47 @@ const content = {
     },
     experience: [
       {
-        company: "YP Realty",
-        location: "Remoto / Puerto Rico",
-        role: "Digital Marketer & Video Editor",
-        period: "Jul. 2026 — Presente",
+        company: "Desarrollo Web & Marketing Freelance",
+        location: "Remoto (Puerto Rico / Global)",
+        role: "Digital Marketer & Desarrolladora Web Jr.",
+        period: "Ene. 2023 — Presente",
         bullets: [
-          "Lidero la estrategia de marketing orgánico y edición de video, transformando podcasts en Reels y Shorts de alto impacto para YouTube, Facebook, Instagram y TikTok con el objetivo de captar leads inmobiliarios.",
-          "Analizo métricas clave y elaboro reportes de rendimiento, logrando picos comprobados en Meta Business Suite de 292 en alcance (+56.1%) y 155 interacciones de contenido (+604.5%).",
-          "Redacto textos persuasivos (copywriting) y gestiono la comunidad con respuestas ágiles (Community Management), orientadas a convertir seguidores en prospectos calificados.",
+          "Diseño y desarrollo Landing Pages orientadas a la captación rápida de leads, utilizando HTML, CSS, JavaScript y frameworks como Next.js y Astro, con despliegue en Vercel.",
+          "Ejecuté la gestión del ecosistema digital y comercial para Active Learning Education (Jun. 2026 – Sept. 2026) en el nicho de lectoescritura en Puerto Rico.",
+          "Administré el CRM, diseñé material POP, implementé Google Forms y apliqué estrategias de Cold Calling (B2B y B2C) para el agendamiento y cierre de ventas.",
         ],
       },
       {
-        company: "Desarrollo Web Freelance",
-        location: "Remoto",
-        role: "Desarrolladora de Landing Pages y Presencia Web",
-        period: "Ene. 2023 — Presente",
+        company: "YP Realty",
+        location: "Remoto / Puerto Rico",
+        role: "Social Media Manager & Video Editor",
+        period: "Jul. 2026 — Presente",
         bullets: [
-          "Diseño y desarrollo páginas de aterrizaje (Landing Pages) enfocadas en la conversión rápida (checklists, servicios, captación de leads) utilizando HTML, CSS, JavaScript y frameworks modernos como Next.js y Astro.",
-          "Gestiono despliegues continuos mediante Vercel y repositorios en GitHub, asegurando que la presencia digital del cliente sea rápida, escalable y optimizada.",
-          "Implemento SEO técnico integrando Google Analytics y Google Search Console para analizar el comportamiento del usuario y mejorar las tasas de conversión.",
+          "Lidero la estrategia de Marketing de Contenidos y la edición de video orgánico, aplicando transiciones dinámicas y hooks (ganchos) en tendencia para maximizar la retención de audiencia.",
+          "Extraigo clips de podcasts para producir Reels y Shorts de alto impacto (YouTube, TikTok, Instagram) y redacto copys persuasivos orientados a la conversión inmobiliaria.",
+          "Analizo métricas en Meta Business Suite, logrando picos de 292 en alcance (+56.1%) y 155 interacciones de contenido (+604.5%) mediante una gestión activa de la comunidad.",
         ],
       },
       {
         company: "PanHouse, Casa Editorial",
         location: "Caracas, Venezuela",
-        role: "Coordinadora de Marketing Ops & Comunicaciones",
+        role: "Project Manager & Coordinadora de Comunicaciones",
         period: "Mar. 2024 — Ago. 2025",
         bullets: [
-          "Diseñé e integré automatizaciones con Inteligencia Artificial (ChatGPT, Claude) para resolver cuellos de botella operativos y agilizar la creación de contenidos y respuestas a clientes.",
-          "Elaboré reportes de métricas y depuré la base de datos del CRM para lanzar campañas estratégicas de Email Marketing enfocadas en la retención y reactivación de usuarios.",
-          "Lideré la logística y montaje de eventos VIP, garantizando un control presupuestario estricto y comunicación fluida entre los equipos de Marketing, Ventas y RRPP.",
+          "Gestioné la comunicación interna corporativa mediante la redacción de boletines, alineando el flujo de información entre Marketing, Ventas y Relaciones Públicas.",
+          "Diseñé e integré automatizaciones con Inteligencia Artificial (ChatGPT, Claude) para reducir tiempos de respuesta y optimizar flujos de trabajo operativos.",
+          "Lideré la logística de eventos VIP con estricto control presupuestario y depuré bases de datos en el CRM para lanzar campañas de Email Marketing orientadas a la retención.",
         ],
       },
       {
         company: "ISMM - Instituto Superior Mariano Moreno",
         location: "Caracas, Venezuela",
-        role: "Acquisition Manager (Ventas & Warm Calling)",
+        role: "Acquisition Manager (Warm Caller & Ventas)",
         period: "Nov. 2023 — Sept. 2024",
         bullets: [
-          "Manejé el ciclo de vida del cliente digital utilizando Zoho CRM, documentando interacciones, agendando citas y ejecutando estrategias de llamadas tibias (Warm Calling) a leads provenientes de Meta Ads.",
-          "Proporcioné asesoría consultiva para manejar objeciones, logrando un incremento del 37,7% en el cierre de ventas de alto valor (High-Ticket).",
-          "Apoyé en la elaboración de guiones de venta en sinergia con el equipo audiovisual para asegurar que el marketing estuviera completamente alineado con los objetivos comerciales.",
-        ],
-      },
-      {
-        company: "Active Learning & Education",
-        location: "Remoto / Puerto Rico",
-        role: "Asistente Virtual (Proyecto de Presencia Web y Ventas)",
-        period: "Jun. 2023 — Sept. 2023",
-        bullets: [
-          "Desarrollé una Landing Page optimizada para la venta de productos y servicios enfocados en el nicho de lectoescritura y mindfulness.",
-          "Gestioné el CRM ejecutando llamadas en frío (Cold Calling) para ventas B2C y B2B institucionales, agendamiento de citas y seguimiento comercial de prospectos.",
-          "Asistí en labores operativas documentando procesos, creando Google Forms, diseñando material POP para impresión y apoyando con contenido puntual para Instagram.",
+          "Transformé estrategias de marketing en ingresos ejecutando Warm Calling a leads captados digitalmente, impulsando un incremento del 37,7% en ventas de alto valor (High-Ticket).",
+          "Manejé el ciclo de vida del prospecto a través de Zoho CRM, garantizando un seguimiento meticuloso hasta la conversión final.",
+          "Codiseñé estrategias comerciales y guiones de venta en sinergia con el equipo audiovisual, aportando insights analíticos del mercado.",
         ],
       },
       {
@@ -87,8 +76,8 @@ const content = {
         role: "Coordinadora del Business Center & Operaciones B2B",
         period: "May. 2023 — Jul. 2023",
         bullets: [
-          "Lideré el portafolio corporativo (B2B) tras un ascenso interno, gestionando reservas y logística bajo estrictos estándares VIP de 5 estrellas con un perfil altamente resolutivo.",
-          "Alcancé una tasa de resolución del 100% en incidencias operativas complejas, centralizando la comunicación entre 7 departamentos críticos del hotel.",
+          "Lideré las ventas corporativas (B2B) comercializando salones de eventos, elaborando presupuestos y coordinando reservaciones bajo estrictos estándares VIP (5 estrellas).",
+          "Centralicé la comunicación interna del departamento, alcanzando una tasa de resolución del 100% en incidencias operativas y actuando como enlace estratégico con la gerencia.",
         ],
       },
       {
@@ -97,15 +86,15 @@ const content = {
         role: "Pasante de Comunicaciones Internas",
         period: "May. 2022 — Abr. 2023",
         bullets: [
-          "Optimicé el flujo de información del hotel elaborando reportes internos y asistiendo directamente en los requerimientos operativos de la gerencia y los huéspedes.",
+          "Facilité la comunicación interna entre 7 departamentos operativos, apoyando la logística diaria y la atención directa de requerimientos de huéspedes y personal.",
+          "Operé el software Opera PMS para la gestión eficiente de reservaciones de habitaciones y salones de eventos.",
         ],
       },
     ],
     skills: {
-      "Marketing Digital": ["Estrategia de Contenido", "Meta Business Suite", "Edición de Video (Reels/Shorts)", "Copywriting", "SEO Técnico"],
-      "Presencia Web": ["Desarrollo de Landing Pages", "HTML, CSS, JS", "Next.js & Astro", "Tailwind CSS", "GitHub & Vercel"],
-      "Ventas & Sistemas": ["Embudos de Venta (Funnels)", "Zoho CRM & Zendesk", "Warm & Cold Calling", "Ventas B2B/B2C", "Email Marketing"],
-      "Operaciones & IA": ["Automatización de Procesos", "ChatGPT & Claude", "Google Analytics & Console", "Logística y Presupuestos"]
+      "Marketing & Contenido": ["Estrategia Digital", "Edición de Video y Retención (Hooks)", "Copywriting", "Email Marketing", "Análisis de Métricas"],
+      "Presencia Web & IA": ["Desarrollo de Landing Pages", "HTML, CSS, JS", "Next.js & Astro", "Vercel & GitHub", "Automatización (ChatGPT, Claude)"],
+      "Ventas & Operaciones": ["Embudos de Venta", "Warm & Cold Calling", "Ventas B2B/B2C", "Zoho CRM & Opera PMS", "Logística y Presupuestos"]
     } as Record<string, string[]>,
     education: [
       {
@@ -128,17 +117,17 @@ const content = {
       },
     ],
     soft: [
-      "Visión integral: capacidad de conectar el contenido (marketing) con la conversión (ventas) de forma fluida.",
-      "Perfil altamente resolutivo, con iniciativa propia para optimizar cuellos de botella y gestionar crisis operativas.",
-      "Aprendizaje autodidacta ágil, con rápida adopción de desarrollo web moderno y herramientas de Inteligencia Artificial.",
-      "Atención al cliente impecable, comunicación persuasiva y estándares de calidad VIP (5 estrellas).",
-      "Enfoque analítico para la toma de decisiones comerciales basada en datos (Data-Driven).",
+      "Visión estratégica para conectar tendencias de marketing con resultados de facturación.",
+      "Aprendizaje autodidacta y adopción ágil de tecnologías web e Inteligencia Artificial.",
+      "Resolución estratégica de problemas y manejo rápido de crisis operativas.",
+      "Atención al cliente y ventas consultivas bajo estándares de calidad VIP (5 estrellas).",
+      "Comunicación asertiva y coordinación ágil de equipos multidisciplinarios.",
     ],
   },
   en: {
-    role: "Digital Marketing Specialist · Web Presence · Sales Ops",
+    role: "Digital Marketing · Jr. Web Developer · Sales Strategy",
     intro:
-      "My focus is clear: I design marketing strategies that attract, build digital presences that engage, and optimize commercial systems that convert. I understand that great content or a website is only successful if it quickly generates revenue. That's why I combine my expertise in content marketing and strategic video editing with Landing Page development and process automation (CRM and sales). I bring over 4 years of experience creating digital ecosystems that run on autopilot, eliminating operational bottlenecks, and driving revenue under VIP (5-star) quality standards.",
+      "Digital Marketing Specialist with a commercial mindset. I turn trends into profitable strategies through high-impact content creation, Landing Page web development, and Artificial Intelligence automations. I connect digital presence with agile commercial systems (CRM, warm/cold calling) to scale revenue quickly and measurably, eliminating operational bottlenecks under VIP (5-star) service standards.",
     location: "Caracas, Venezuela",
     download: "Download CV",
     portfolio: "View Portfolio",
@@ -151,58 +140,47 @@ const content = {
     },
     experience: [
       {
-        company: "YP Realty",
-        location: "Remote / Puerto Rico",
-        role: "Digital Marketer & Video Editor",
-        period: "Jul. 2026 — Present",
+        company: "Freelance Web Development & Marketing",
+        location: "Remote (Puerto Rico / Global)",
+        role: "Digital Marketer & Jr. Web Developer",
+        period: "Jan. 2023 — Present",
         bullets: [
-          "Lead organic marketing strategies and video editing, transforming podcasts into high-impact Reels and Shorts for YouTube, Facebook, Instagram, and TikTok to capture real estate leads.",
-          "Analyze key metrics and prepare performance reports, achieving verified peaks in Meta Business Suite of 292 in reach (+56.1%) and 155 content interactions (+604.5%).",
-          "Write persuasive copy and manage the digital community with agile responses (Community Management), aimed at converting followers into qualified prospects.",
+          "Design and develop Landing Pages focused on rapid lead capture using HTML, CSS, JavaScript, and frameworks like Next.js and Astro, deployed via Vercel.",
+          "Executed the digital and commercial ecosystem management for Active Learning Education (Jun. 2026 – Sept. 2026) in the Puerto Rican literacy niche.",
+          "Managed the CRM, designed POP material, implemented Google Forms, and applied Cold Calling strategies (B2B and B2C) for appointment setting and sales closing.",
         ],
       },
       {
-        company: "Freelance Web Development",
-        location: "Remote",
-        role: "Landing Page & Web Presence Developer",
-        period: "Jan. 2023 — Present",
+        company: "YP Realty",
+        location: "Remote / Puerto Rico",
+        role: "Social Media Manager & Video Editor",
+        period: "Jul. 2026 — Present",
         bullets: [
-          "Design and develop Landing Pages focused on rapid conversion (checklists, services, lead capture) using HTML, CSS, JavaScript, and modern frameworks like Next.js and Astro.",
-          "Manage continuous deployments via Vercel and GitHub repositories, ensuring the client's digital presence is fast, scalable, and optimized.",
-          "Implement technical SEO by integrating Google Analytics and Google Search Console to analyze user behavior and improve conversion rates.",
+          "Lead the Content Marketing strategy and organic video editing, applying dynamic transitions and trending hooks to maximize audience retention.",
+          "Extract podcast clips to produce high-impact Reels and Shorts (YouTube, TikTok, Instagram) and write persuasive copy aimed at real estate conversion.",
+          "Analyze metrics in Meta Business Suite, achieving peaks of 292 in reach (+56.1%) and 155 content interactions (+604.5%) through active community management.",
         ],
       },
       {
         company: "PanHouse, Publishing House",
         location: "Caracas, Venezuela",
-        role: "Marketing Ops & Communications Coordinator",
+        role: "Project Manager & Communications Coordinator",
         period: "Mar. 2024 — Aug. 2025",
         bullets: [
-          "Designed and integrated Artificial Intelligence automations (ChatGPT, Claude) to resolve operational bottlenecks and streamline content creation and customer responses.",
-          "Prepared metrics reports and debugged the CRM database to launch strategic Email Marketing campaigns focused on user retention and reactivation.",
-          "Led logistics and VIP event setup, ensuring strict budget control and fluid communication between the Marketing, Sales, and PR teams.",
+          "Managed corporate internal communications by writing newsletters, aligning the information flow among Marketing, Sales, and Public Relations.",
+          "Designed and integrated Artificial Intelligence automations (ChatGPT, Claude) to reduce response times and optimize operational workflows.",
+          "Led VIP event logistics with strict budget control and debugged CRM databases to launch retention-focused Email Marketing campaigns.",
         ],
       },
       {
         company: "ISMM - Mariano Moreno Higher Institute",
         location: "Caracas, Venezuela",
-        role: "Acquisition Manager (Sales & Warm Calling)",
+        role: "Acquisition Manager (Warm Caller & Sales)",
         period: "Nov. 2023 — Sept. 2024",
         bullets: [
-          "Managed the digital customer lifecycle using Zoho CRM, documenting interactions, scheduling appointments, and executing Warm Calling strategies on leads generated from Meta Ads.",
-          "Provided consultative advice to handle objections, achieving a 37.7% increase in closing High-Ticket sales.",
-          "Supported the creation of sales scripts in synergy with the audiovisual team to ensure marketing was fully aligned with commercial objectives.",
-        ],
-      },
-      {
-        company: "Active Learning & Education",
-        location: "Remote / Puerto Rico",
-        role: "Virtual Assistant (Web Presence & Sales Project)",
-        period: "Jun. 2023 — Sept. 2023",
-        bullets: [
-          "Developed an optimized Landing Page for the sale of products and services focused on the literacy and mindfulness niche.",
-          "Managed the CRM by executing Cold Calling for B2C and institutional B2B sales, appointment setting, and commercial follow-ups.",
-          "Assisted in operational tasks by documenting processes, creating Google Forms, designing POP print materials, and providing targeted Instagram content.",
+          "Transformed marketing strategies into revenue by executing Warm Calling to digitally captured leads, driving a 37.7% increase in High-Ticket sales.",
+          "Managed the prospect lifecycle through Zoho CRM, ensuring meticulous follow-up until final conversion.",
+          "Co-designed commercial strategies and sales scripts in synergy with the audiovisual team, providing analytical market insights.",
         ],
       },
       {
@@ -211,8 +189,8 @@ const content = {
         role: "Business Center & B2B Operations Coordinator",
         period: "May 2023 — Jul. 2023",
         bullets: [
-          "Led the corporate (B2B) portfolio following an internal promotion, managing reservations and logistics under strict VIP 5-star standards with a highly resolutive profile.",
-          "Achieved a 100% resolution rate in complex operational incidents, centralizing communication across 7 critical hotel departments.",
+          "Led corporate (B2B) sales by marketing event rooms, preparing budgets, and coordinating reservations under strict VIP (5-star) standards.",
+          "Centralized the department's internal communication, achieving a 100% resolution rate in operational incidents and acting as a strategic liaison with management.",
         ],
       },
       {
@@ -221,15 +199,15 @@ const content = {
         role: "Internal Communications Intern",
         period: "May 2022 — Apr. 2023",
         bullets: [
-          "Optimized the hotel's information flow by preparing internal reports and directly assisting with the operational requirements of management and guests.",
+          "Facilitated internal communication across 7 operational departments, supporting daily logistics and directly addressing guest and staff requirements.",
+          "Operated Opera PMS software for the efficient management of room and event room reservations.",
         ],
       },
     ],
     skills: {
-      "Digital Marketing": ["Content Strategy", "Meta Business Suite", "Video Editing (Reels)", "Copywriting", "Technical SEO"],
-      "Web Presence": ["Landing Page Development", "HTML, CSS, JS", "Next.js & Astro", "Tailwind CSS", "GitHub & Vercel"],
-      "Sales & Systems": ["Sales Funnels", "Zoho CRM & Zendesk", "Warm & Cold Calling", "B2B/B2C Sales", "Email Marketing"],
-      "Ops & AI": ["Process Automation", "ChatGPT & Claude", "Google Analytics & Console", "Logistics & Budgets"]
+      "Marketing & Content": ["Digital Strategy", "Video Editing & Retention (Hooks)", "Copywriting", "Email Marketing", "Metrics Analysis"],
+      "Web Presence & AI": ["Landing Page Development", "HTML, CSS, JS", "Next.js & Astro", "Vercel & GitHub", "AI Automation (ChatGPT, Claude)"],
+      "Sales & Operations": ["Sales Funnels", "Warm & Cold Calling", "B2B/B2C Sales", "Zoho CRM & Opera PMS", "Logistics & Budgets"]
     } as Record<string, string[]>,
     education: [
       {
@@ -252,11 +230,11 @@ const content = {
       },
     ],
     soft: [
-      "Holistic vision: ability to seamlessly connect content (marketing) with conversion (sales).",
-      "Highly resolutive profile with strong initiative to optimize bottlenecks and manage operational crises.",
-      "Agile self-taught learning, with rapid adoption of modern web development and Artificial Intelligence tools.",
-      "Impeccable customer service, persuasive communication, and VIP (5-star) quality standards.",
-      "Analytical approach for data-driven commercial decision making.",
+      "Strategic vision to connect marketing trends with revenue results.",
+      "Self-taught learning and agile adoption of web technologies and Artificial Intelligence.",
+      "Strategic problem-solving and rapid operational crisis management.",
+      "Customer service and consultative sales under VIP (5-star) quality standards.",
+      "Assertive communication and agile multidisciplinary team coordination.",
     ],
   },
 } as const;

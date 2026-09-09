@@ -36,16 +36,6 @@ const content = {
         ],
       },
       {
-        company: "Active Learning Education",
-        location: "Remoto / Puerto Rico",
-        role: "Asistente Virtual & Ventas",
-        period: "Jun. 2026 — Ago. 2026",
-        bullets: [
-          "Administré el CRM corporativo, diseñé material POP y optimicé la captación de datos implementando Google Forms.",
-          "Ejecuté estrategias de Cold Calling (B2B y B2C) para el agendamiento de citas y cierre de ventas en el nicho de lectoescritura, mindfulness y psicología.",
-        ],
-      },
-      {
         company: "YP Realty",
         location: "Remoto / Puerto Rico",
         role: "Social Media Manager & Video Editor",
@@ -54,6 +44,16 @@ const content = {
           "Lidero la estrategia de Marketing de Contenidos y la edición de video orgánico, aplicando transiciones dinámicas y hooks (ganchos) en tendencia para maximizar la retención de audiencia.",
           "Extraigo clips de podcasts para producir Reels y Shorts de alto impacto (YouTube, TikTok, Instagram) y redacto copys persuasivos orientados a la conversión inmobiliaria.",
           "Analizo métricas en Meta Business Suite, logrando picos de 292 en alcance (+56.1%) y 155 interacciones de contenido (+604.5%) mediante una gestión activa de la comunidad.",
+        ],
+      },
+      {
+        company: "Active Learning Education",
+        location: "Remoto / Puerto Rico",
+        role: "Asistente Virtual & Ventas",
+        period: "Jun. 2026 — Ago. 2026",
+        bullets: [
+          "Administré el CRM corporativo, diseñé material POP y optimicé la captación de datos implementando Google Forms.",
+          "Ejecuté estrategias de Cold Calling (B2B y B2C) para el agendamiento de citas y cierre de ventas en el nicho de lectoescritura, mindfulness y psicología.",
         ],
       },
       {
@@ -157,16 +157,6 @@ const content = {
         ],
       },
       {
-        company: "Active Learning Education",
-        location: "Remote / Puerto Rico",
-        role: "Virtual Assistant & Sales",
-        period: "Jun. 2026 — Aug. 2026",
-        bullets: [
-          "Managed the corporate CRM, designed POP material, and optimized data capture by implementing Google Forms.",
-          "Executed Cold Calling strategies (B2B and B2C) for appointment setting and closing sales in the literacy, mindfulness, and psychology niches.",
-        ],
-      },
-      {
         company: "YP Realty",
         location: "Remote / Puerto Rico",
         role: "Social Media Manager & Video Editor",
@@ -175,6 +165,16 @@ const content = {
           "Lead the Content Marketing strategy and organic video editing, applying dynamic transitions and trending hooks to maximize audience retention.",
           "Extract podcast clips to produce high-impact Reels and Shorts (YouTube, TikTok, Instagram) and write persuasive copy aimed at real estate conversion.",
           "Analyze metrics in Meta Business Suite, achieving peaks of 292 in reach (+56.1%) and 155 content interactions (+604.5%) through active community management.",
+        ],
+      },
+      {
+        company: "Active Learning Education",
+        location: "Remote / Puerto Rico",
+        role: "Virtual Assistant & Sales",
+        period: "Jun. 2026 — Aug. 2026",
+        bullets: [
+          "Managed the corporate CRM, designed POP material, and optimized data capture by implementing Google Forms.",
+          "Executed Cold Calling strategies (B2B and B2C) for appointment setting and closing sales in the literacy, mindfulness, and psychology niches.",
         ],
       },
       {

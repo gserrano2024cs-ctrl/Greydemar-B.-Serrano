@@ -304,7 +304,7 @@ function Index() {
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href={cvAsset.url}
-              download="Greydemar_Serrano_CV202610.pdf"
+              download="Greydemar_Serrano_CV 202610.pdf"
               className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-all hover:opacity-90"
             >
               <Download className="h-4 w-4" /> {t.download}

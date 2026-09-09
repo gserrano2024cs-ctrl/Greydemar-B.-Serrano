@@ -27,14 +27,22 @@ const content = {
     },
     experience: [
       {
-        company: "Desarrollo Web & Marketing Freelance",
-        location: "Remoto (Puerto Rico / Global)",
-        role: "Digital Marketer & Desarrolladora Web Jr.",
+        company: "Desarrollo Web Freelance",
+        location: "Remoto",
+        role: "Desarrolladora Web Jr.",
         period: "Ene. 2023 — Presente",
         bullets: [
           "Diseño y desarrollo Landing Pages orientadas a la captación rápida de leads, utilizando HTML, CSS, JavaScript y frameworks como Next.js y Astro, con despliegue en Vercel.",
-          "Ejecuté la gestión del ecosistema digital y comercial para Active Learning Education (Jun. 2026 – Sept. 2026) en el nicho de lectoescritura en Puerto Rico.",
-          "Administré el CRM, diseñé material POP, implementé Google Forms y apliqué estrategias de Cold Calling (B2B y B2C) para el agendamiento y cierre de ventas.",
+        ],
+      },
+      {
+        company: "Active Learning Education",
+        location: "Remoto / Puerto Rico",
+        role: "Asistente Virtual & Ventas",
+        period: "Jun. 2026 — Sept. 2026",
+        bullets: [
+          "Administré el CRM corporativo, diseñé material POP y optimicé la captación de datos implementando Google Forms.",
+          "Ejecuté estrategias de Cold Calling (B2B y B2C) para el agendamiento de citas y cierre de ventas en el nicho de lectoescritura.",
         ],
       },
       {
@@ -140,14 +148,22 @@ const content = {
     },
     experience: [
       {
-        company: "Freelance Web Development & Marketing",
-        location: "Remote (Puerto Rico / Global)",
-        role: "Digital Marketer & Jr. Web Developer",
+        company: "Freelance Web Development",
+        location: "Remote",
+        role: "Jr. Web Developer",
         period: "Jan. 2023 — Present",
         bullets: [
           "Design and develop Landing Pages focused on rapid lead capture using HTML, CSS, JavaScript, and frameworks like Next.js and Astro, deployed via Vercel.",
-          "Executed the digital and commercial ecosystem management for Active Learning Education (Jun. 2026 – Sept. 2026) in the Puerto Rican literacy niche.",
-          "Managed the CRM, designed POP material, implemented Google Forms, and applied Cold Calling strategies (B2B and B2C) for appointment setting and sales closing.",
+        ],
+      },
+      {
+        company: "Active Learning Education",
+        location: "Remote / Puerto Rico",
+        role: "Virtual Assistant & Sales",
+        period: "Jun. 2026 — Sept. 2026",
+        bullets: [
+          "Managed the corporate CRM, designed POP material, and optimized data capture by implementing Google Forms.",
+          "Executed Cold Calling strategies (B2B and B2C) for appointment setting and closing sales in the literacy niche.",
         ],
       },
       {

@@ -12,9 +12,9 @@ type Lang = "es" | "en";
 
 const content = {
   es: {
-    role: "Project Coordinator · Marketing Ops · Social Media Strategist",
+    role: "Digital Trafficker · Project Manager · Web Developer",
     intro:
-      "Conecto marketing, ventas y operaciones para escalar negocios y estructurar flujos de trabajo. Transformo estrategias en ingresos mediante la automatización de procesos con Inteligencia Artificial, la coordinación ágil de equipos multidisciplinarios y el diseño de embudos de adquisición. Cuento con más de 4 años de experiencia eliminando cuellos de botella operativos e impulsando el crecimiento comercial bajo estándares de servicio VIP (5 estrellas).",
+      "Conecto marketing, desarrollo web y operaciones para escalar negocios y maximizar conversiones. Transformo estrategias en ingresos mediante embudos de adquisición, gestión de pauta digital y desarrollo de Landing Pages de alto rendimiento. Cuento con más de 4 años de experiencia analizando KPIs, coordinando logística de eventos, optimizando presupuestos y resolviendo cuellos de botella operativos bajo un enfoque resolutivo, de iniciativa constante y estándares de servicio VIP (5 estrellas).",
     location: "Caracas, Venezuela",
     download: "Descargar CV",
     portfolio: "Ver Portafolio",
@@ -27,25 +27,36 @@ const content = {
     },
     experience: [
       {
+        company: "Desarrollo Web & Marketing Freelance",
+        location: "Remoto",
+        role: "Desarrollador Web Freelance & Trafficker Digital",
+        period: "Ene. 2023 — Presente",
+        bullets: [
+          "Diseño y desarrollo Landing Pages y sitios web optimizados para conversión (CRO) utilizando HTML, CSS, JavaScript y frameworks modernos como Next.js, Astro y Tailwind CSS.",
+          "Gestiono repositorios en GitHub y ejecuto despliegues continuos mediante Vercel para garantizar rendimiento y escalabilidad.",
+          "Implemento estrategias SEO técnico y de contenido, integrando Google Analytics y Google Search Console para el monitoreo de usuarios, sesiones y tasas de conversión.",
+        ],
+      },
+      {
         company: "YP Realty",
         location: "Remoto / Puerto Rico",
-        role: "Social Media & Digital Strategist",
+        role: "Digital Trafficker & Social Media Strategist",
         period: "Jul. 2026 — Presente",
         bullets: [
-          "Lidero la estrategia de contenido orgánico y edición de video (Instagram, TikTok, YouTube, FB) para posicionar propiedades residenciales y comerciales en el mercado de Puerto Rico.",
-          "Diseño y optimizo campañas publicitarias multiplataforma orientadas a la captación de leads inmobiliarios, maximizando el retorno de inversión y las tasas de conversión.",
-          "Gestiono la comunidad digital mediante respuestas ágiles, aplicando estrategias de Growth para transformar seguidores en prospectos calificados.",
+          "Ejecuto campañas publicitarias en Meta Ads y Google Ads enfocadas en captación de leads inmobiliarios, optimizando KPIs clave como Alcance, CPM, CTR, CPC y Tasa de Conversión.",
+          "Lidero la estrategia de contenido orgánico, logrando un incremento del 56.1% en alcance orgánico y un aumento del 604.5% en interacciones de contenido.",
+          "Redacto copys persuasivos y guiones para video (Instagram, TikTok, YouTube), y elaboro reportes de rendimiento mensuales para alinear objetivos comerciales.",
         ],
       },
       {
         company: "PanHouse, Casa Editorial",
         location: "Caracas, Venezuela",
-        role: "Coordinadora de Comunicaciones Internas",
+        role: "Coordinadora de Comunicaciones Internas & Project Manager",
         period: "Mar. 2024 — Ago. 2025",
         bullets: [
-          "Sincronicé las operaciones diarias entre los departamentos de Marketing, Ventas y Relaciones Públicas, garantizando el flujo de información y la ejecución exitosa de eventos VIP.",
-          "Diseñé e integré sistemas de automatización con IA (ChatGPT, Claude) que redujeron drásticamente los tiempos de atención y estandarizaron la comunicación interna y externa.",
-          "Ejecuté la depuración y segmentación del CRM para lanzar campañas de Email Marketing enfocadas en la retención y reactivación de usuarios.",
+          "Lideré la gestión operativa, logística integral y montaje de eventos VIP, garantizando un estricto control presupuestario y una comunicación fluida entre Marketing, Ventas y RRPP.",
+          "Elaboré reportes de métricas y análisis de datos de campañas, diseñando automatizaciones con IA (ChatGPT, Claude) para optimizar los flujos de trabajo.",
+          "Ejecuté la depuración y segmentación del CRM para lanzar campañas de Email Marketing, redactando copys y aplicando estrategias para la retención y reactivación de usuarios.",
         ],
       },
       {
@@ -54,9 +65,9 @@ const content = {
         role: "Acquisition Manager (Ventas B2C)",
         period: "Nov. 2023 — Sept. 2024",
         bullets: [
-          "Gestioné el ciclo de ventas End-to-End, impulsando un incremento del 37,7% en la conversión de matrículas de alto valor (High-Ticket).",
-          "Codiseñé estrategias de Video Marketing y Social Media en sinergia con el equipo audiovisual, creando activos digitales orientados a la venta directa.",
-          "Brindé asesoría consultiva omnicanal para manejar objeciones y cerrar negociaciones.",
+          "Gestioné el ciclo de ventas End-to-End, impulsando un incremento del 37,7% en la conversión de matrículas de alto valor (High-Ticket) a través de un seguimiento meticuloso del lead.",
+          "Codiseñé estrategias de Video Marketing y Social Media con el equipo audiovisual, redactando guiones orientados a la venta directa y atracción de leads.",
+          "Elaboré reportes comerciales periódicos y brindé atención al cliente consultiva omnicanal para manejar objeciones y cerrar negociaciones.",
         ],
       },
       {
@@ -65,28 +76,17 @@ const content = {
         role: "Coordinadora del Business Center & Operaciones B2B",
         period: "Ago. 2022 — Jul. 2023",
         bullets: [
-          "Ascendí internamente para liderar el Business Center, gestionando el portafolio corporativo (B2B), coordinando reservas y logística bajo estrictos estándares de calidad 5 estrellas.",
-          "Centralicé las operaciones entre 7 departamentos críticos (Ventas, Front Desk, Sistemas, Ingeniería, Experiencias, Cocina y Ama de Llaves), optimizando la comunicación de todo el hotel.",
-          "Alcancé una tasa de resolución del 100% en incidencias operativas complejas, actuando como mediadora estratégica entre las áreas.",
-        ],
-      },
-      {
-        company: "Dislocal",
-        location: "Caracas, Venezuela",
-        role: "Production Manager & Project Coordinator",
-        period: "Oct. 2021 — Oct. 2022",
-        bullets: [
-          "Lideré la planificación estratégica y producción logística de proyectos con impacto socioeconómico y cultural en la comunidad del Barrio El Calvario (El Hatillo).",
-          "Apliqué metodologías de Project Management para asegurar el cumplimiento de cronogramas y coordinar múltiples equipos en terreno.",
-          "Actué como enlace principal entre aliados organizacionales (Visión Ciudad) y la comunidad local, garantizando la ejecución impecable de exposiciones y eventos al aire libre.",
+          "Lideré el Business Center con un perfil resolutivo, gestionando el portafolio corporativo (B2B), logística y atención al cliente bajo estrictos estándares de calidad 5 estrellas.",
+          "Centralicé las operaciones entre 7 departamentos críticos, optimizando la comunicación y elaborando reportes de incidencias para la gerencia.",
+          "Alcancé una tasa de resolución del 100% en crisis operativas, actuando como mediadora estratégica y aplicando iniciativa para anticipar problemas.",
         ],
       },
     ],
     skills: {
-      "Marketing & Ads": ["Captación de leads", "Email Marketing (Mailchimp)", "Meta Ads", "B2B/B2C Sales", "Estrategia Inmobiliaria"],
-      "Project Ops": ["Asana", "ClickUp", "Notion", "Trello", "Liderazgo interdisciplinario", "Zoho CRM", "Zendesk"],
-      "Content & Video": ["CapCut", "Canva", "Adobe Suite", "Copywriting persuasivo", "Community Management"],
-      "AI & Automation": ["ChatGPT", "Gemini", "Claude", "Prompt Engineering", "Optimización de flujos"]
+      "Marketing & Analytics": ["Trafficker Digital", "Meta Ads & Google Ads", "Google Analytics", "Google Search Console", "Análisis de KPIs (CTR, CPC, CPM)", "SEO", "Conversión de Leads"],
+      "Desarrollo Web": ["HTML, CSS, JavaScript", "Next.js", "Astro", "Tailwind CSS", "GitHub", "Vercel", "Landing Pages"],
+      "Project Ops & Eventos": ["Asana", "ClickUp", "Notion", "Logística y Montaje de Eventos", "Control Presupuestario", "Gestión Operativa", "Elaboración de Reportes"],
+      "Content & AI": ["Copywriting y Guiones", "CapCut", "Canva", "ChatGPT, Gemini, Claude", "Prompt Engineering"]
     } as Record<string, string[]>,
     education: [
       {
@@ -109,17 +109,17 @@ const content = {
       },
     ],
     soft: [
-      "Liderazgo transversal y coordinación ágil de equipos multidisciplinarios.",
-      "Resolución estratégica de problemas y manejo rápido de crisis operativas.",
-      "Comunicación asertiva y negociación orientada a resultados comerciales.",
-      "Atención al detalle y estándares de calidad VIP (5 estrellas) en experiencia de cliente.",
-      "Adaptabilidad tecnológica y adopción proactiva de Inteligencia Artificial.",
+      "Perfil altamente resolutivo, con iniciativa propia y rápida gestión de crisis operativas.",
+      "Liderazgo transversal, control presupuestario y coordinación ágil de equipos en terreno.",
+      "Atención al cliente impecable, comunicación asertiva y estándares de calidad VIP (5 estrellas).",
+      "Enfoque analítico para la toma de decisiones basada en datos (Data-Driven).",
+      "Adaptabilidad tecnológica para desarrollo web y adopción proactiva de Inteligencia Artificial.",
     ],
   },
   en: {
-    role: "Project Coordinator · Marketing Ops · Social Media Strategist",
+    role: "Digital Trafficker · Project Manager · Web Developer",
     intro:
-      "I connect marketing, sales, and operations to scale businesses and structure workflows. I transform strategies into revenue by automating processes with Artificial Intelligence, agile coordination of multidisciplinary teams, and designing acquisition funnels. I have over 4 years of experience eliminating operational bottlenecks and driving commercial growth under VIP service standards (5 stars).",
+      "I connect marketing, web development, and operations to scale businesses and maximize conversions. I transform strategies into revenue through acquisition funnels, digital ad management, and high-performance Landing Pages. I have over 4 years of experience analyzing KPIs, coordinating event logistics, optimizing budgets, and resolving operational bottlenecks with a proactive, solution-oriented approach and VIP (5-star) service standards.",
     location: "Caracas, Venezuela",
     download: "Download CV",
     portfolio: "View Portfolio",
@@ -132,25 +132,36 @@ const content = {
     },
     experience: [
       {
+        company: "Freelance Web Development & Marketing",
+        location: "Remote",
+        role: "Freelance Web Developer & Digital Trafficker",
+        period: "Jan. 2023 — Present",
+        bullets: [
+          "Design and develop conversion-optimized (CRO) Landing Pages and websites using HTML, CSS, JavaScript, and modern frameworks like Next.js, Astro, and Tailwind CSS.",
+          "Manage GitHub repositories and execute continuous deployments via Vercel to ensure performance and scalability.",
+          "Implement technical and content SEO strategies, integrating Google Analytics and Google Search Console to monitor users, sessions, and conversion rates.",
+        ],
+      },
+      {
         company: "YP Realty",
         location: "Remote / Puerto Rico",
-        role: "Social Media & Digital Strategist",
+        role: "Digital Trafficker & Social Media Strategist",
         period: "Jul. 2026 — Present",
         bullets: [
-          "Lead the organic content strategy and video editing (Instagram, TikTok, YouTube, FB) to position residential and commercial properties in the Puerto Rican market.",
-          "Design and optimize cross-platform advertising campaigns aimed at capturing real estate leads, maximizing ROI and conversion rates.",
-          "Manage the digital community with agile responses, applying Growth strategies to turn followers into qualified prospects.",
+          "Execute advertising campaigns on Meta Ads and Google Ads focused on real estate lead generation, optimizing key KPIs such as Reach, CPM, CTR, CPC, and Conversion Rate.",
+          "Lead the organic content strategy, achieving a 56.1% increase in organic reach and a 604.5% boost in content interactions.",
+          "Write persuasive copy and video scripts (Instagram, TikTok, YouTube), and prepare monthly performance reports to align commercial objectives.",
         ],
       },
       {
         company: "PanHouse, Publishing House",
         location: "Caracas, Venezuela",
-        role: "Internal Communications Coordinator",
+        role: "Internal Communications Coordinator & Project Manager",
         period: "Mar. 2024 — Aug. 2025",
         bullets: [
-          "Synchronized daily operations among Marketing, Sales, and PR departments, ensuring information flow and the successful execution of VIP events.",
-          "Designed and integrated AI-driven automation systems (ChatGPT, Claude) that drastically reduced response times and standardized corporate communication.",
-          "Executed CRM database debugging and segmentation to launch Email Marketing campaigns focused on user retention and reactivation.",
+          "Led operational management, comprehensive logistics, and VIP event setup, ensuring strict budget control and fluid communication between Marketing, Sales, and PR.",
+          "Prepared metric reports and campaign data analysis, designing AI-driven automations (ChatGPT, Claude) to optimize workflows.",
+          "Executed CRM database debugging and segmentation to launch Email Marketing campaigns, writing copy and applying strategies for user retention and reactivation.",
         ],
       },
       {
@@ -159,9 +170,9 @@ const content = {
         role: "Acquisition Manager (B2C Sales)",
         period: "Nov. 2023 — Sept. 2024",
         bullets: [
-          "Managed the End-to-End sales cycle, driving a 37.7% increase in conversion rates for High-Ticket enrollments.",
-          "Co-designed Video Marketing and Social Media strategies in synergy with the audiovisual team, creating digital assets geared towards direct sales.",
-          "Provided omnichannel consultative advice to handle objections and close negotiations.",
+          "Managed the End-to-End sales cycle, driving a 37.7% increase in conversion rates for High-Ticket enrollments through meticulous lead nurturing.",
+          "Co-designed Video Marketing and Social Media strategies with the audiovisual team, writing scripts geared towards direct sales and lead attraction.",
+          "Prepared periodic commercial reports and provided omnichannel consultative customer service to handle objections and close negotiations.",
         ],
       },
       {
@@ -170,28 +181,17 @@ const content = {
         role: "Business Center & B2B Operations Coordinator",
         period: "Aug. 2022 — Jul. 2023",
         bullets: [
-          "Promoted internally to lead the Business Center, managing the corporate (B2B) portfolio, coordinating reservations and logistics under strict 5-star quality standards.",
-          "Centralized operations across 7 critical departments (Sales, Front Desk, IT, Engineering, Experiences, Kitchen, and Housekeeping), optimizing hotel-wide communication.",
-          "Achieved a 100% resolution rate for complex operational incidents, acting as a strategic mediator between departments.",
-        ],
-      },
-      {
-        company: "Dislocal",
-        location: "Caracas, Venezuela",
-        role: "Production Manager & Project Coordinator",
-        period: "Oct. 2021 — Oct. 2022",
-        bullets: [
-          "Led the strategic planning and logistical production of projects with socioeconomic and cultural impact in the Barrio El Calvario community (El Hatillo).",
-          "Applied Project Management methodologies to ensure schedule compliance and coordinate multiple teams on the ground.",
-          "Acted as the main liaison between organizational allies (Visión Ciudad) and the local community, ensuring the flawless execution of outdoor exhibitions and events.",
+          "Led the Business Center with a highly resolutive profile, managing the corporate (B2B) portfolio, logistics, and customer service under strict 5-star quality standards.",
+          "Centralized operations across 7 critical departments, optimizing communication and preparing incident reports for management.",
+          "Achieved a 100% resolution rate in operational crises, acting as a strategic mediator and applying initiative to anticipate problems.",
         ],
       },
     ],
     skills: {
-      "Marketing & Ads": ["Lead Generation", "Email Marketing (Mailchimp)", "Meta Ads", "B2B/B2C Sales", "Real Estate Strategy"],
-      "Project Ops": ["Asana", "ClickUp", "Notion", "Trello", "Cross-functional Leadership", "Zoho CRM", "Zendesk"],
-      "Content & Video": ["CapCut", "Canva", "Adobe Suite", "Persuasive Copywriting", "Community Management"],
-      "AI & Automation": ["ChatGPT", "Gemini", "Claude", "Prompt Engineering", "Workflow Optimization"]
+      "Marketing & Analytics": ["Digital Trafficker", "Meta Ads & Google Ads", "Google Analytics", "Google Search Console", "KPI Analysis (CTR, CPC, CPM)", "SEO", "Lead Conversion"],
+      "Web Development": ["HTML, CSS, JavaScript", "Next.js", "Astro", "Tailwind CSS", "GitHub", "Vercel", "Landing Pages"],
+      "Project Ops & Events": ["Asana", "ClickUp", "Notion", "Event Logistics & Setup", "Budget Control", "Operational Management", "Performance Reporting"],
+      "Content & AI": ["Copywriting & Scripts", "CapCut", "Canva", "ChatGPT, Gemini, Claude", "Prompt Engineering"]
     } as Record<string, string[]>,
     education: [
       {
@@ -214,11 +214,11 @@ const content = {
       },
     ],
     soft: [
-      "Cross-functional leadership and agile coordination of multidisciplinary teams.",
-      "Strategic problem-solving and rapid operational crisis management.",
-      "Assertive communication and negotiation focused on commercial results.",
-      "Attention to detail and VIP quality standards (5-star) in customer experience.",
-      "Technological adaptability and proactive adoption of Artificial Intelligence.",
+      "Highly resolutive profile with strong initiative and rapid operational crisis management.",
+      "Cross-functional leadership, budget control, and agile coordination of field teams.",
+      "Impeccable customer service, assertive communication, and VIP (5-star) quality standards.",
+      "Analytical approach for data-driven decision making.",
+      "Technological adaptability for web development and proactive adoption of Artificial Intelligence.",
     ],
   },
 } as const;

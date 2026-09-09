@@ -39,10 +39,10 @@ const content = {
         company: "Active Learning Education",
         location: "Remoto / Puerto Rico",
         role: "Asistente Virtual & Ventas",
-        period: "Jun. 2026 — Sept. 2026",
+        period: "Jun. 2026 — Ago. 2026",
         bullets: [
           "Administré el CRM corporativo, diseñé material POP y optimicé la captación de datos implementando Google Forms.",
-          "Ejecuté estrategias de Cold Calling (B2B y B2C) para el agendamiento de citas y cierre de ventas en el nicho de lectoescritura.",
+          "Ejecuté estrategias de Cold Calling (B2B y B2C) para el agendamiento de citas y cierre de ventas en el nicho de lectoescritura, mindfulness y psicología.",
         ],
       },
       {
@@ -125,11 +125,11 @@ const content = {
       },
     ],
     soft: [
-      "Visión estratégica para conectar tendencias de marketing con resultados de facturación.",
-      "Aprendizaje autodidacta y adopción ágil de tecnologías web e Inteligencia Artificial.",
-      "Resolución estratégica de problemas y manejo rápido de crisis operativas.",
-      "Atención al cliente y ventas consultivas bajo estándares de calidad VIP (5 estrellas).",
-      "Comunicación asertiva y coordinación ágil de equipos multidisciplinarios.",
+      "Cuento con un perfil altamente resolutivo y proactivo, especializado en conectar estrategias digitales con resultados de facturación.",
+      "Ejerzo un liderazgo transversal, manteniendo un estricto control logístico presupuestario y una eficiente coordinación de equipos.",
+      "Brindo una atención al cliente impecable, aplicando ventas consultivas bajo estándares de calidad VIP (5 estrellas).",
+      "Mantengo un enfoque analítico para la toma de decisiones siempre basada en datos (Data-Driven).",
+      "Destaco por mi aprendizaje autodidacta ágil, con rápida adopción de tecnologías web y herramientas de Inteligencia Artificial.",
     ],
   },
   en: {
@@ -160,10 +160,10 @@ const content = {
         company: "Active Learning Education",
         location: "Remote / Puerto Rico",
         role: "Virtual Assistant & Sales",
-        period: "Jun. 2026 — Sept. 2026",
+        period: "Jun. 2026 — Aug. 2026",
         bullets: [
           "Managed the corporate CRM, designed POP material, and optimized data capture by implementing Google Forms.",
-          "Executed Cold Calling strategies (B2B and B2C) for appointment setting and closing sales in the literacy niche.",
+          "Executed Cold Calling strategies (B2B and B2C) for appointment setting and closing sales in the literacy, mindfulness, and psychology niches.",
         ],
       },
       {
@@ -246,11 +246,11 @@ const content = {
       },
     ],
     soft: [
-      "Strategic vision to connect marketing trends with revenue results.",
-      "Self-taught learning and agile adoption of web technologies and Artificial Intelligence.",
-      "Strategic problem-solving and rapid operational crisis management.",
-      "Customer service and consultative sales under VIP (5-star) quality standards.",
-      "Assertive communication and agile multidisciplinary team coordination.",
+      "I possess a highly resolutive and proactive profile, specialized in connecting digital strategies with revenue results.",
+      "I exercise cross-functional leadership, maintaining strict logistical budget control and efficient team coordination.",
+      "I provide impeccable customer service, applying consultative sales under VIP (5-star) quality standards.",
+      "I maintain an analytical approach for decision making, ensuring it is always Data-Driven.",
+      "I stand out for my agile self-taught learning, with rapid adoption of web technologies and Artificial Intelligence tools.",
     ],
   },
 } as const;

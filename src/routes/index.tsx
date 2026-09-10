@@ -1,8 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Linkedin, Download, ArrowUpRight, Languages } from "lucide-react";
-// IMPORTANTE: Mantenemos este nombre de archivo para que Vercel no dé error.
-import cvAsset from "@/assets/jose-acurero-cv.pdf.asset.json";
+
+// 1. Aquí importamos TU archivo PDF directamente desde la carpeta assets.
+// Asegúrate de que el archivo en tu carpeta se llame exactamente así, sin espacios:
+import miCV from "@/assets/Greydemar_Serrano_CV.pdf";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -302,9 +304,10 @@ function Index() {
           </div>
 
           <div className="mt-8 flex flex-wrap gap-4">
+            {/* 2. Aquí conectamos la variable miCV para que Vercel sepa exactamente qué archivo descargar */}
             <a
-              href={cvAsset.url}
-              download="Greydemar_Serrano_CV 202610.pdf"
+              href={miCV}
+              download="Greydemar_Serrano_CV.pdf"
               className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-all hover:opacity-90"
             >
               <Download className="h-4 w-4" /> {t.download}

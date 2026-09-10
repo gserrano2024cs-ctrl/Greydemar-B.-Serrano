@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Linkedin, Download, ArrowUpRight, Languages } from "lucide-react";
 
-// 1. Aquí importamos TU archivo PDF directamente desde la carpeta assets.
+// Importamos TU archivo PDF directamente desde la carpeta assets.
 // Asegúrate de que el archivo en tu carpeta se llame exactamente así, sin espacios:
 import miCV from "@/assets/Greydemar_Serrano_CV.pdf";
 
@@ -16,7 +16,7 @@ const content = {
   es: {
     role: "Marketing Digital · Desarrolladora Web Jr. · Estrategia de Ventas",
     intro:
-      "Especialista en Marketing Digital con visión comercial. Transformo tendencias en estrategias rentables mediante la creación de contenido de alto impacto, el desarrollo web de Landing Pages y la automatización con Inteligencia Artificial. Conecto la presencia digital con sistemas comerciales ágiles (CRM, ventas en frío/tibias) para escalar la facturación de forma rápida y medible, eliminando cuellos de botella operativos bajo estándares de servicio VIP (5 estrellas).",
+      "Marketing para atraer + Ventas para facturar + Tecnología para acelerar. Diseño ecosistemas donde el contenido de alto impacto conecta directamente con sistemas de cierre comercial (CRM y prospección), respaldados por el desarrollo de Landing Pages rápidas (Front-End). Mi misión es simple: eliminar la fricción hacia la facturación y ejecutar un marketing que marque la diferencia en el mercado.",
     location: "Caracas, Venezuela",
     download: "Descargar CV",
     portfolio: "Ver Portafolio",
@@ -103,7 +103,7 @@ const content = {
     ],
     skills: {
       "Marketing & Contenido": ["Estrategia Digital", "Edición de Video y Retención (Hooks)", "Copywriting", "Email Marketing", "Análisis de Métricas"],
-      "Presencia Web & IA": ["Desarrollo de Landing Pages", "HTML, CSS, JS", "Next.js & Astro", "Vercel & GitHub", "Automatización (ChatGPT, Claude)"],
+      "Presencia Web & IA": ["Desarrollo de Landing Pages (Front-End)", "HTML, CSS, JS", "Next.js & Astro", "Vercel & GitHub", "Automatización (ChatGPT, Claude)"],
       "Ventas & Operaciones": ["Embudos de Venta", "Warm & Cold Calling", "Ventas B2B/B2C", "Zoho CRM & Opera PMS", "Logística y Presupuestos"]
     } as Record<string, string[]>,
     education: [
@@ -137,7 +137,7 @@ const content = {
   en: {
     role: "Digital Marketing · Jr. Web Developer · Sales Strategy",
     intro:
-      "Digital Marketing Specialist with a commercial mindset. I turn trends into profitable strategies through high-impact content creation, Landing Page web development, and Artificial Intelligence automations. I connect digital presence with agile commercial systems (CRM, warm/cold calling) to scale revenue quickly and measurably, eliminating operational bottlenecks under VIP (5-star) service standards.",
+      "Marketing to attract + Sales to generate revenue + Technology to accelerate. I design ecosystems where high-impact content connects directly with commercial closing systems (CRM and prospecting), backed by the development of fast Landing Pages (Front-End). My mission is simple: eliminate friction towards revenue and execute marketing that makes a difference in the market.",
     location: "Caracas, Venezuela",
     download: "Download CV",
     portfolio: "View Portfolio",
@@ -224,7 +224,7 @@ const content = {
     ],
     skills: {
       "Marketing & Content": ["Digital Strategy", "Video Editing & Retention (Hooks)", "Copywriting", "Email Marketing", "Metrics Analysis"],
-      "Web Presence & AI": ["Landing Page Development", "HTML, CSS, JS", "Next.js & Astro", "Vercel & GitHub", "AI Automation (ChatGPT, Claude)"],
+      "Web Presence & AI": ["Landing Page Development (Front-End)", "HTML, CSS, JS", "Next.js & Astro", "Vercel & GitHub", "AI Automation (ChatGPT, Claude)"],
       "Sales & Operations": ["Sales Funnels", "Warm & Cold Calling", "B2B/B2C Sales", "Zoho CRM & Opera PMS", "Logistics & Budgets"]
     } as Record<string, string[]>,
     education: [
@@ -304,7 +304,6 @@ function Index() {
           </div>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            {/* 2. Aquí conectamos la variable miCV para que Vercel sepa exactamente qué archivo descargar */}
             <a
               href={miCV}
               download="Greydemar_Serrano_CV.pdf"

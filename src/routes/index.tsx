@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { Mail, Phone, MapPin, Linkedin, Download, ArrowUpRight, Languages } from "lucide-react";
 // IMPORTANTE: Mantenemos este nombre de archivo para que Vercel no dé error.
-import cvUrl from "@/assets/Greydemar_Serrano_CV 202610.pdf";
+import cvAsset from "@/assets/jose-acurero-cv.pdf.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
